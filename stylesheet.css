@@ -110,6 +110,7 @@ define slideLeft if you use this
     animation: slideLeft 1s ease forwards;
 }
 */
+
 .home-sci a{
     display:inline-flex;
     justify-content: center;
@@ -359,18 +360,18 @@ define slideLeft if you use this
 }
 .projects .item{
     margin: 2rem 0;
-    height: 320px;
+    height: 650px;
     width: 100%;
     position: relative;
 }
 .projects .row .item:nth-child(1){
-    background: url(images/ttm.png) center/cover no-repeat;
+    background: url(images/iCloset.png) center/cover no-repeat;
 }
 .projects .row .item:nth-child(2){
-    background: url(images/rkt.png) center/cover no-repeat;
+    background: url(images/ScarletExchange.png) center/cover no-repeat;
 }
 .projects .row .item:nth-child(3){
-    background: url(images/yy.png) center/cover no-repeat;
+    background: url(images/ttm.png) center/cover no-repeat;
 }
 .projects .item .item-overlay{
     position: absolute;
@@ -509,4 +510,34 @@ define slideLeft if you use this
     box-shadow: 0 0 5px #0ef,
     0 0 25px #0ef, 0 0 50px #0ef,
     0 0 100px #0ef, 0 0 200px #0ef;
+}
+
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    pad:20px;
+    gap: 100px;
+}
+
+iframe {
+    width: 700px; 
+    height: 600px;
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.btn-download {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-download:hover {
+    background-color: #0056b3;
 }
